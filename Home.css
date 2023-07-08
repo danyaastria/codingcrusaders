@@ -1,7 +1,4 @@
 /* menu */
-body {
-  width: 150% !important;
-}
 .menu {
   position: relative;
   display: flex;
