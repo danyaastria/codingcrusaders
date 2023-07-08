@@ -10,8 +10,8 @@ body {
   z-index: 9;
 }
 .menu ul li{
-  border: solid red 2px;
   justify-content: space-between;
+  float: right;
 }
 .menu-btn {
   height: 50px;
@@ -89,37 +89,38 @@ a.active,a:hover{
 }
 
 @media (max-width: 767px){
+  .u-sheet-2{
+    width: 100% !important;
+  }
   .btn{
     display: block;
   }
   .menu ul{
     display: block;
-    margin-inline: 80px;
-    float: center;
-  }
-  .menu ul li {
-    border-bottom: solid blue 2px;
   }
   .menu{
     position: fixed;
     background: yellow;
     flex-direction: column;
-    min-width: 400px;
     height: 100vh;
-    width: 100%;
+    width: 80%;
     top: 100px;
     justify-content: center;
     align-items: center;
-    right: 0;
+    left: 5px;
   }
   .menu .active{
-    right: 30px;
   }
   .menu .close-btn{
     position: absolute;
     top: 0;
     left: 0;
     margin: 0px;
+    background: red;
+    font-family: 'Press Start 2P';
+    margin-top: 1px;
+    height: 42px;
+    width: 38px;
   }
   .menu a{
     display: block;
@@ -140,9 +141,6 @@ a.active,a:hover{
 }
 /* phone responsiveness */
 @media (max-width: 400px){
-  body{
-    width: 100%;
-  }
   #socialicons{
     height: 50px;
   }
@@ -201,7 +199,7 @@ h2 {
 .typewriter h1{
   text-shadow: 2px 2px #ff0000;
   font-family: 'Fira Mono', monospace;
-  margin-top: -370px!important;
+  margin-top: -280px!important;
   color: #04ff00 !important;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
