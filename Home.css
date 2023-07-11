@@ -5,6 +5,12 @@ html,body {
     overflow-x: hidden; 
 }
 /* menu */
+#socialicons{
+  z-index: 1;
+}
+.u-social-url:hover{
+  background: transparent;
+}
 .menu {
   position: relative;
   display: flex;
@@ -33,8 +39,17 @@ html,body {
 }
 .menu-btn:hover{
   background: white;
-  color: blue !important;
+  color: blue !important3
   transition: .5s;
+}
+.logo{
+  margin-left: -20px !important;
+  width: 210px;
+  height: 100px;
+  z-index: 1;
+}
+.logolink:hover{
+  background: transparent;
 }
 #trialclass{
   font-family: 'Roboto', sans-serif; !important;
@@ -42,21 +57,18 @@ html,body {
 nav {
   background: transparent;
   height: 100px;
-  width: 100%;
   display: flex;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   margin-left: 0px;
   justify-content: space-between;
+  margin-inline: -20px;
 }
 nav img {
   float: left;
-  padding-left: -30px;
 }
 nav ul {
-  float: right;
-  margin-right: -30px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -92,27 +104,27 @@ a.active,a:hover{
 }
 
 @media (max-width: 767px){
-  .u-sheet-2{
-    width: 100% !important;
-  }
   .btn{
     display: block;
   }
   .menu ul{
     display: block;
+    width: 70%;
+  }
+  .menu ul li{
+    border: solid blue 2px;
+    width: 100%;
   }
   .menu{
     position: fixed;
     background: yellow;
     flex-direction: column;
     height: 100vh;
-    width: 80%;
+    width: 100%;
     top: 100px;
     justify-content: center;
     align-items: center;
-    left: 5px;
-  }
-  .menu .active{
+    left: 0px;
   }
   .menu .close-btn{
     position: absolute;
@@ -141,6 +153,9 @@ a.active,a:hover{
   nav{
     margin-left: -100px !important;
   }
+  .logo{
+  margin-left: 5px !important;
+  }
 }
 /* phone responsiveness */
 @media (max-width: 400px){
@@ -158,12 +173,12 @@ a.active,a:hover{
     height: 50px !important;
     width: 100px;
     float: right;
-    margin-left: 95px !important;
+    margin-left: 100px !important;
     font-size: 18px;
   }
   .logo{
     height: 85px;
-    margin-left: 95px !important;
+    margin-left: 120px !important;
     margin-top: 2px;
   }
   #student2{
