@@ -157,6 +157,9 @@ a.active,a:hover{
   .menu-btn{
     margin-left: 140px !important;
   }
+  .typewriter{
+    margin-top: -30px;
+  }
 }
 /* phone responsiveness */
 @media (max-width: 400px){
@@ -176,7 +179,8 @@ a.active,a:hover{
     height: 90px;
     justify-content: center;
   }
-  #sec-e36c{
+  #sec-d422{
+    margin-top: -10px;
   }
   .menu-btn{
     height: 50px !important;
@@ -192,21 +196,31 @@ a.active,a:hover{
     margin-top: 2px;
   }
   #student2{
-    left: 40px !important;
+    margin-left:-45px !important;
     top: 3px;
-  }
-  .typewriter {
-    margin-right: 30px;
   }
   .typewriter h1{
     font-size: 25.5px !important;
     top: 20px;
     letter-spacing: .4em;
-    left: 20px;
+    left: -40px;
+  }
+  #trialclass {
+    top: 60px !important;
   }
   #trialclass a{
+    z-index: 1;
+    position: relative;
+    margin-top: -60px !important;
     font-size: 30px !important;
-    line-height: 0.6 !important;
+    line-height: 0.4 !important;
+  }
+  .u-repeater-item{
+    padding-bottom: 20px;
+  }
+  #sec-0057 a{
+    width: 35px;
+    height: 35px;
   }
 }
 
@@ -227,7 +241,7 @@ h2 {
 .typewriter h1{
   text-shadow: 2px 2px #ff0000;
   font-family: 'Fira Mono', monospace;
-  margin-top: -280px!important;
+  margin-bottom: 100px!important;
   color: #04ff00 !important;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -253,6 +267,7 @@ h2 {
 }
 #student2{
   z-index: 1;
+  top: 0px;
 }
 #headerset1{
   z-index: 1;
@@ -262,7 +277,7 @@ h2 {
     height: 1180px;
   }
   .typewriter h1{
-    margin-top: -420px!important;
+    margin-top: -400px!important;
     left: -80px;
     font-size: 70px !important;
     width: 700px;
@@ -289,6 +304,19 @@ h2 {
     top: -10px !important;
     right: -10px !important;
   }
+  #student2{
+    left: 100px !important;
+    top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .typewriter{
+    margin-left: -80px;
+  }
+  #student2{
+    left: -70px !important;
+    top: 0;
+  }
 }
 @media (max-width: 575px) {
   .u-section-1 {
@@ -306,11 +334,13 @@ h2 {
   }
   #typewriter{
     left: -40px;
+    margin-left: 190px;
+    width: 350px;
   }
   #trialclass {
     top: 120px;
     line-height: 0.8;
-    left: -5px;
+    right: 10px;
   }
   #speechbubble {
     margin-top: -80px !important;
