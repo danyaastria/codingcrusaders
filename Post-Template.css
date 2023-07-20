@@ -1,0 +1,370 @@
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+/* menu */
+#socialicons {
+  z-index: 1;
+}
+.u-social-url:hover {
+  background: transparent;
+}
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+.menu ul li {
+  justify-content: space-between;
+  float: right;
+}
+.menu-btn {
+  height: 50px;
+  padding: 8px;
+  padding-bottom: 6px;
+  padding-left: 11px;
+  background: yellow;
+  border: solid red 2px;
+  justify-content: center;
+  align-items: center;
+  padding-right: -100px;
+  float: right;
+  margin-top: 20px;
+  margin-left: 200px;
+  font-family: "Press Start 2P";
+  z-index: 100;
+}
+.menu-btn:hover {
+  background: white;
+  color: blue !important;
+  transition: 0.5s;
+}
+.logo {
+  margin-left: -20px !important;
+  width: 210px;
+  height: 100px;
+  z-index: 1;
+}
+.logolink:hover {
+  background: transparent;
+}
+#trialclass {
+  font-family: "Roboto", sans-serif !important;
+}
+nav {
+  background: transparent;
+  height: 100px;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-left: 0px;
+  justify-content: space-between;
+  margin-inline: -20px;
+}
+nav img {
+  float: left;
+}
+nav ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+  color: #000;
+}
+nav ul li a {
+  background: yellow;
+  color: #000 !important;
+  font-size: 14px;
+  padding: 15px 19px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Press Start 2P";
+  white-space: nowrap !important;
+}
+a.active,
+a:hover {
+  background: white;
+  color: blue !important;
+  transition: 0.5s;
+}
+
+/* mobile toggle menu */
+.btn {
+  color: #000;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+@media (min-width: 851px) {
+  .menu {
+    display: block !important;
+  }
+}
+@media (max-width: 850px) {
+  .btn {
+    display: block;
+  }
+  .menu ul {
+    display: block;
+    width: 70%;
+  }
+  .menu ul li {
+    border: solid blue 2px;
+    width: 100%;
+  }
+  .menu {
+    position: fixed;
+    background: yellow;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    display: none;
+  }
+  .menu .close-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    background: red;
+    font-family: "Press Start 2P";
+    margin-top: 1px;
+    height: 42px;
+    width: 38px;
+  }
+  .menu a {
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 0 15px;
+  }
+}
+@media (max-width: 575px) {
+  nav {
+    float: left !important;
+    margin-left: -50px;
+  }
+  .menu-btn {
+    margin-left: 140px !important;
+  }
+}
+/* phone responsiveness */
+@media (max-width: 400px) {
+  nav {
+    margin-left: -91px !important;
+    justify-content: space-between;
+    float: center;
+    margin-inline: 100px;
+  }
+  #socialicons {
+    height: 50px;
+  }
+  .u-social-icons {
+    top: -3px;
+  }
+  #sec-37e8 {
+    height: 90px;
+    justify-content: center;
+  }
+  #sec-d422 {
+    margin-top: -10px;
+  }
+  .menu-btn {
+    height: 50px !important;
+    width: 100px;
+    float: right;
+    margin-left: 70px !important;
+    font-size: 18px;
+  }
+  .logo {
+    height: 85px;
+    width: 180px;
+    margin-left: 80px !important;
+    margin-top: 2px;
+  }
+  #student2 {
+    margin-left: -45px !important;
+    top: 3px;
+  }
+  .typewriter h1 {
+    font-size: 25.5px !important;
+    top: 20px;
+    letter-spacing: 0.4em;
+    left: -40px;
+  }
+  #trialclass {
+    top: 90px !important;
+  }
+  #trialclass a {
+    z-index: 1;
+    position: relative;
+    margin-top: -60px !important;
+    font-size: 30px !important;
+    line-height: 0.4 !important;
+  }
+  .u-repeater-item {
+    padding-bottom: 20px;
+  }
+  #sec-0057 a {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* nes.css fonts */
+h2 {
+  font-family: "Press Start 2P" !important;
+  font-size: 25px !important;
+}
+.u-post-header-link {
+  font-size: 17px !important;
+}
+#carousel_ad0a h1 {
+  font-family: "Press Start 2P" !important;
+  font-size: 30px;
+}
+/* 
+@media (max-width: 575px) {
+  .u-section-1 {
+    height: 1080px !important;
+  }
+  .bannerdiv {
+    object-fit: center !important;
+  }
+  #headerset1 {
+    left: -45px;
+  }
+  #headerset1 .u-image-4 {
+    top: 10px;
+  }
+  #student {
+    display: none !important;
+  }
+  #summarycourses {
+    margin-top: 570px !important;
+  }
+  #tabicon1 {
+    display: none;
+  }
+  #tabicon2 {
+    margin-top: 30px !important;
+  }
+  .u-tab-list {
+    margin-top: -5px !important;
+  }
+  #beginnercampview {
+    margin-top: -3px !important;
+  }
+} */
+
+.u-section-1 .u-sheet-1 {
+  min-height: 835px;
+}
+
+.u-section-1 .u-post-details-1 {
+  min-height: 375px;
+  margin-top: 60px;
+  margin-bottom: -10px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-image-1 {
+  height: 486px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.u-section-1 .u-text-1 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.u-section-1 .u-metadata-1 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin-bottom: 0;
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 782px;
+  }
+
+  .u-section-1 .u-post-details-1 {
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 423px;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 722px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 354px;
+    margin-top: 9px;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 835px;
+  }
+
+  .u-section-1 .u-post-details-1 {
+    margin-bottom: -10px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 486px;
+    margin-top: 0;
+    margin-left: initial;
+  }
+}
