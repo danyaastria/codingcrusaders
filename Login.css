@@ -117,10 +117,10 @@ a:hover {
   }
   .menu ul {
     display: block;
-    width: 70%;
+    width: 100%;
+    margin-left: 60px;
   }
   .menu ul li {
-    border: solid blue 2px;
     width: 100%;
   }
   .menu {
@@ -129,7 +129,7 @@ a:hover {
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    top: 100px;
+    top: 87px;
     justify-content: center;
     align-items: center;
     left: 0px;
@@ -142,8 +142,8 @@ a:hover {
     margin: 0px;
     background: red;
     font-family: "Press Start 2P";
-    margin-top: 1px;
-    height: 42px;
+    margin-top: 0px;
+    height: 40px;
     width: 38px;
   }
   .menu a {
@@ -223,6 +223,13 @@ a:hover {
     width: 35px;
     height: 35px;
   }
+  .loginbg{
+    top: -10px !important;
+  }
+  footer{
+    top: -10px !important;
+
+  }
 }
 
 /* nes.css fonts */
@@ -242,7 +249,7 @@ h2 {
   background: #f702ef;
   font-family: Assistant, sans-serif;
   display: flex;
-  min-height: 90vh;
+  min-height: 80vh;
 }
 .login {
   color: white;
