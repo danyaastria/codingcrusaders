@@ -232,6 +232,11 @@ a:hover {
     top: 15px;
   }
 }
+@media (max-width: 575px) {
+  #sec-0b86 p{
+    right: -45px !important;
+  }
+}
 
 /* nes.css fonts */
 h2 {
