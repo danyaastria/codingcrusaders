@@ -117,8 +117,7 @@ a:hover {
   }
   .menu ul {
     display: block;
-    width: 70%;
-    margin-left: 60px;
+    width: 100%;
   }
   .menu ul li {
     width: 100%;
@@ -142,8 +141,8 @@ a:hover {
     margin: 0px;
     background: red;
     font-family: "Press Start 2P";
-    margin-top: 0px;
-    height: 40px;
+    margin-top: 1px;
+    height: 42px;
     width: 38px;
   }
   .menu a {
@@ -203,9 +202,6 @@ a:hover {
     margin-left: -45px !important;
     top: 3px;
   }
-  #typewriter{
-    top: 0px !important;
-  }
   .typewriter h1 {
     font-size: 25.5px !important;
     top: 20px;
@@ -213,15 +209,12 @@ a:hover {
     left: -40px;
   }
   #trialclass {
-    top: -20px !important;
-  }
-  .u-section-1 .u-icon-1 {
-    height: 200px !important;
+    top: 90px !important;
   }
   #trialclass a {
-    top: -20px;
     z-index: 1;
     position: relative;
+    margin-top: -60px !important;
     font-size: 30px !important;
     line-height: 0.4 !important;
   }
@@ -330,15 +323,11 @@ h2 {
   }
   #typewriter {
     margin-right: 10px;
-    top: 20px;
   }
 }
 @media (max-width: 850px) {
   #typewriter {
     font-size: 2.25rem;
-  }
-  #trialclass{
-    top: 15px !important;
   }
 }
 @media (max-width: 767px) {
@@ -375,7 +364,7 @@ h2 {
     width: auto;
   }
   #trialclass {
-    top: 80px !important;
+    top: 90px;
     line-height: 0.8;
     right: 10px;
   }
@@ -430,11 +419,11 @@ h2 {
   }
 }
 
-/* .u-valign-middle-md,
+.u-valign-middle-md,
 .u-valign-top-md,
 .u-valign-bottom-md {
   display: flex;
-} */
+}
 
 @media (min-width: 992px) {
   #blog-container {
@@ -462,9 +451,6 @@ h2 {
   #blog-control {
     position: absolute !important;
     bottom: 15px;
-  }
-  #python21above{
-    width: 172px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
