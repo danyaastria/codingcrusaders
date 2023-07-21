@@ -205,12 +205,12 @@ a:hover {
   }
   .typewriter h1 {
     font-size: 25.5px !important;
-    top: 20px;
+    top: 10px !important;
     letter-spacing: 0.4em;
     left: -40px;
   }
   #trialclass {
-    top: 90px !important;
+    top: 65px !important;
   }
   #trialclass a {
     z-index: 1;
@@ -225,6 +225,11 @@ a:hover {
   #sec-0057 a {
     width: 35px;
     height: 35px;
+  }
+}
+@media (min-width: 577px) and (max-width: 850px) {
+  #trialclass{
+    top: 15px;
   }
 }
 
@@ -243,9 +248,9 @@ h2 {
 
 /* typewriter banner */
 .typewriter h1 {
+  top: 30px;
   text-shadow: 2px 2px #ff0000;
   font-family: "Fira Mono", monospace;
-  margin-bottom: 100px !important;
   color: #04ff00 !important;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid orange; /* The typwriter cursor */
