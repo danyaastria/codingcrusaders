@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   float: right;
 }
-.-btn {
+.menu-btn {
   height: 50px;
   padding: 8px;
   padding-bottom: 6px;
