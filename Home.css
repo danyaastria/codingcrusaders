@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   float: right;
 }
-.menu-btn {
+.-btn {
   height: 50px;
   padding: 8px;
   padding-bottom: 6px;
@@ -118,6 +118,7 @@ a:hover {
   .menu ul {
     display: block;
     width: 100%;
+    margin-left: 60px !important;
   }
   .menu ul li {
     width: 100%;
