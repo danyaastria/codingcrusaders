@@ -460,6 +460,9 @@ h2 {
     position: absolute !important;
     bottom: 15px;
   }
+  #python21above{
+    width: 172px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   #blog-container {
