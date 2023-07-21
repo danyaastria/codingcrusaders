@@ -129,7 +129,7 @@ a:hover {
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    top: 100px;
+    top: 87px;
     justify-content: center;
     align-items: center;
     left: 0px;
@@ -142,8 +142,8 @@ a:hover {
     margin: 0px;
     background: red;
     font-family: "Press Start 2P";
-    margin-top: 1px;
-    height: 42px;
+    margin-top: 0px;
+    height: 40px;
     width: 38px;
   }
   .menu a {
@@ -212,10 +212,13 @@ a:hover {
   #trialclass {
     top: -20px !important;
   }
+  .u-section-1 .u-icon-1 {
+    height: 200px !important;
+  }
   #trialclass a {
+    top: -20px;
     z-index: 1;
     position: relative;
-    padding-top: -50px !important;
     font-size: 30px !important;
     line-height: 0.4 !important;
   }
