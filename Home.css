@@ -118,9 +118,9 @@ a:hover {
   .menu ul {
     display: block;
     width: 70%;
+    margin-left: 60px;
   }
   .menu ul li {
-    border: solid blue 2px;
     width: 100%;
   }
   .menu {
@@ -330,6 +330,9 @@ h2 {
   #typewriter {
     font-size: 2.25rem;
   }
+  #trialclass{
+    top: 15px !important;
+  }
 }
 @media (max-width: 767px) {
   #sales-card {
@@ -365,7 +368,7 @@ h2 {
     width: auto;
   }
   #trialclass {
-    top: 90px;
+    top: 80px !important;
     line-height: 0.8;
     right: 10px;
   }
