@@ -203,6 +203,9 @@ a:hover {
     margin-left: -45px !important;
     top: 3px;
   }
+  #typewriter{
+    top: 0px !important;
+  }
   .typewriter h1 {
     font-size: 25.5px !important;
     top: 20px;
